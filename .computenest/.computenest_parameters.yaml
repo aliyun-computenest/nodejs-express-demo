@@ -1,0 +1,14 @@
+SecurityGroupPorts:
+- 80
+RuntimeType: Container
+ServicePorts:
+- 80
+ServiceType: private
+ArtifactSourceType: Buildpacks
+RepoName: aliyun-computenest/nodejs-express-demo
+ServiceBuildRegion: ap-southeast-1
+RegionId: cn-hangzhou
+CustomParameters: []
+Owner: LYH-RAIN
+Branch: main
+Platform: github
